@@ -59,3 +59,11 @@ export default {
   }
 }
 </script>
+
+<style lang="less" scoped>
+  .ant-menu-inline .ant-menu-item,
+  .ant-menu-inline .ant-menu-submenu-title {
+    width: calc(50%) !important;
+    float:left!important;
+  }
+</style>
